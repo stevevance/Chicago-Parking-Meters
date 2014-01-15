@@ -38,7 +38,7 @@ var tilesOptions = {
 var tilesLayer = new L.TileLayer(remoteTiles,tilesOptions).addTo(map);
 
 geojsonLayer.on('data:loaded', function() {
-    alert("data loaded");
+    //alert("data loaded");
     markerGroup.addLayer(geojsonLayer);
 });
 
