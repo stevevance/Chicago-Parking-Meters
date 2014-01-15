@@ -1,10 +1,21 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
-html, body, #map {
+html, body {
     height: 100%;
+}
+#map {
+	height: calc(100% - 100px);
 }
 #loadingMessage {
 	
+}
+#header {
+	height:80px;
+	padding:10px;
+}
+h1 {
+	font-size: 120%;
 }
