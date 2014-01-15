@@ -7,15 +7,20 @@ html, body {
     height: 100%;
 }
 #map {
-	height: calc(100% - 100px);
+	height: calc(100% - 90px);
 }
 #loadingMessage {
 	
 }
 #header {
 	height:80px;
-	padding:10px;
+	padding:5px;
 }
 h1 {
-	font-size: 120%;
+	font-size: 110%;
+	margin:0;
+	padding:0;
+}
+p {
+	font-size: 80%;
 }

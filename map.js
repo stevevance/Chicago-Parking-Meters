@@ -7,7 +7,7 @@ function popUp(feature, layer) {
 
 var map = new L.Map('map',{
 	    attributionControl:false,
-	    maxZoom:18,
+	    maxZoom:17,
 	    minZoom:12,
 	    zoomControl:true,
 	    trackResize:true,
