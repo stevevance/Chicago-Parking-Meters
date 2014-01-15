@@ -16,7 +16,9 @@ var map = new L.Map('map',{
 	    zoom:17
     });
 
-var markerGroup = new L.MarkerClusterGroup();
+var markerGroup = new L.MarkerClusterGroup({
+	maxClusterRadius:50
+});
 map.addLayer(markerGroup);
 
 var cartoTable = "http://stevevance.cartodb.com/api/v2/sql?q=SELECT the_geom, address, dayratehour, daytimelimit, parkingspaces FROM chicagoparkingmeters&format=geojson";
