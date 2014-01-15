@@ -41,11 +41,3 @@ geojsonLayer.on('data:loaded', function() {
     //alert("data loaded");
     markerGroup.addLayer(geojsonLayer);
 });
-
-
-setTimeout(function() {
-	//markerGroup.addLayer(geojsonLayer);
-}, 100)
-
-
-//geojsonLayer.addTo(map);
