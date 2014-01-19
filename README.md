@@ -9,4 +9,6 @@ Data scraped on January 14, 2014, from the "Chicago Parking Meters, LLC" website
 You can export the data from CartoDB, where the data is stored and retrieved by Leaflet to display on the map. 
 http://stevevance.cartodb.com/tables/chicagoparkingmeters/public
 
+Map design is based on OSM-Bright style template by MapBox and modified by me to emphasize bike lanes and de-emphasize highways. I also modified it to better highlight beaches and skate parks.
+
 Uses jQuery, Leaflet, and Leaflet.MarkerCluster plugin. 
